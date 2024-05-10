@@ -25,6 +25,7 @@ ENV LISTEN_PORT="6380" \
     SERVER_CONNECTIONS="40" \
     PRECONNECT="true" \
     HASH="fnv1a_64" \
+    REDIS_AUTH="" \
     DISTRIBUTION="ketama"
 
 RUN apk --no-cache add dumb-init
